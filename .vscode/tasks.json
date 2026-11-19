@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Site: build",
+      "type": "process",
+      "command": "node",
+      "args": ["build.mjs"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Site: check profile for release",
+      "type": "process",
+      "command": "node",
+      "args": ["build.mjs", "--release"],
+      "problemMatcher": []
+    }
+  ]
+}

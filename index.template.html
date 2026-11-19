@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{SITE_DESCRIPTION}}" />
+    {{SITE_CANONICAL}}
+    <title>__PROFILE_NAME__ | Vertical transportation</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-site-header>
+      <a class="brand" href="#home" aria-label="__PROFILE_NAME__ home">
+        {{SITE_LOGO}}
+      </a>
+      <nav id="site-navigation" class="site-navigation" data-navigation>
+        {{SITE_NAVIGATION}}
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Vertical transportation / Uganda</p>
+          <h1>Engineering movement <em>between floors.</em></h1>
+          <p class="hero-tagline">{{SITE_TAGLINE}}</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#services">Explore solutions</a>
+            <a class="text-link" href="#approach">Our approach <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-caption">Vertical systems / 01</div>
+          <div class="shaft">
+            <span class="floor-label floor-label-top">02</span>
+            <span class="floor-label floor-label-bottom">01</span>
+            <span class="shaft-line shaft-line-left"></span>
+            <span class="shaft-line shaft-line-right"></span>
+            <div class="lift-cabin">
+              <span class="cabin-number">K</span>
+              <span class="cabin-interior"></span>
+              <span class="cabin-door cabin-door-left"></span>
+              <span class="cabin-door cabin-door-right"></span>
+            </div>
+            <span class="shaft-floor shaft-floor-one"></span>
+            <span class="shaft-floor shaft-floor-two"></span>
+          </div>
+          <div class="visual-footnote">Designed for the journey up</div>
+        </div>
+      </section>
+
+      <section class="service-ribbon" aria-label="Core capabilities">
+        <p>Passenger and cargo systems</p>
+        <p>Installation and commissioning</p>
+        <p>Lifecycle maintenance</p>
+      </section>
+
+      <section id="services" class="content-section services-section">
+        <div class="section-heading">
+          <p class="eyebrow">What we do</p>
+          <h2>One partner for the full lift lifecycle.</h2>
+          <p class="section-intro">{{SITE_WHAT_WE_DO}}</p>
+        </div>
+        {{SITE_OFFERINGS}}
+      </section>
+
+      <section id="approach" class="approach-section">
+        <div class="approach-heading">
+          <p class="eyebrow">Our approach</p>
+          <h2>Hands-on engineering, from first conversation to ongoing care.</h2>
+          <p>
+            Direct client consultations shape the work, with installation,
+            commissioning, and preventive maintenance supporting each system
+            through its lifecycle.
+          </p>
+        </div>
+        <ol class="approach-steps">
+          <li>
+            <span class="step-number">01</span>
+            <h3>Consult</h3>
+            <p>Discuss the building, its needs, and the right vertical transportation solution.</p>
+          </li>
+          <li>
+            <span class="step-number">02</span>
+            <h3>Install and commission</h3>
+            <p>Supply, set up, install, test, and commission lift systems.</p>
+          </li>
+          <li>
+            <span class="step-number">03</span>
+            <h3>Maintain</h3>
+            <p>Provide preventive maintenance and responsive engineering support over time.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="about-label">
+          <p class="eyebrow">The company</p>
+          <h2>__PROFILE_NAME__</h2>
+          {{SITE_LOCATION}}
+        </div>
+        <div class="about-copy">
+          <p>{{SITE_ABOUT}}</p>
+          <p class="about-note">Direct consultations for buildings across Uganda.</p>
+        </div>
+      </section>
+
+      {{SITE_CONTACT_SECTION}}
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#home">__PROFILE_NAME__</a>
+      <p>&copy; <span data-current-year></span> __PROFILE_NAME__</p>
+      <a class="back-to-top" href="#home">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </footer>
+  </body>
+</html>

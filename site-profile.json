@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "identity": {
+    "name": "Kushan Elevators",
+    "legalName": "Kushan Elevators Limited",
+    "siteUrl": "",
+    "tagline": "Dedicated vertical transportation solutions built on client trust and rapid local response.",
+    "description": "A prominent elevator installation, commissioning, and maintenance service provider based in Kampala, Uganda, known for managing high-capacity residential and commercial building lift systems entirely through direct client consultations.",
+    "about": "Kushan Elevators is a trusted engineering firm operating from Mutungo, Kampala. The company specializes in the supply, setup, and robust lifecycle maintenance of modern passenger and cargo lift systems across Uganda. Known for its hands-on approach, the company serves as a vital service provider to building owners who prioritize consistent up-time and immediate engineering response over digital storefronts.",
+    "whatWeDo": "Provides complete engineering solutions for vertical transportation, including the supply, professional installation, testing, and 24/7 preventive maintenance of passenger lifts, freight elevators, and tailored architectural escalator setups."
+  },
+  "brand": {
+    "logoPath": "",
+    "logoAlt": ""
+  },
+  "location": {
+    "streetAddress": "",
+    "locality": "Mutungo",
+    "region": "Kampala",
+    "postalCode": "",
+    "country": "Uganda"
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "pageUrl": "",
+    "actionLabel": "Contact"
+  },
+  "navigation": [
+    { "label": "Solutions", "href": "#services" },
+    { "label": "Our approach", "href": "#approach" },
+    { "label": "About", "href": "#about" }
+  ],
+  "offerings": [
+    {
+      "name": "Passenger lifts",
+      "description": "Supply, installation, commissioning, testing, and preventive maintenance for passenger lift systems in residential and commercial buildings."
+    },
+    {
+      "name": "Cargo and freight elevators",
+      "description": "Lift systems for moving goods through residential and commercial buildings, with installation, testing, commissioning, and lifecycle maintenance."
+    },
+    {
+      "name": "Escalator solutions",
+      "description": "Tailored architectural escalator setups developed through direct client consultation."
+    },
+    {
+      "name": "Installation and commissioning",
+      "description": "Professional setup, installation, testing, and commissioning of modern passenger and cargo lift systems."
+    },
+    {
+      "name": "Preventive maintenance",
+      "description": "24/7 preventive maintenance and rapid local engineering response for lift systems."
+    }
+  ]
+}
